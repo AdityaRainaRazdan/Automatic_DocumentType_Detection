@@ -1,0 +1,22 @@
+﻿@{
+    ViewData["Title"] = "Document Classifier";
+}
+
+<h2>Upload Document</h2>
+
+<form asp-action="Upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="file" required />
+    <button type="submit">Upload</button>
+</form>
+
+@if (ViewBag.Category != null)
+{
+    <h3>Category: @ViewBag.Category</h3>
+
+    @if (ViewBag.IsNew)
+    {
+        <div style="color:red;font-weight:bold;">
+            ⚠️ New Document Type Detected!
+        </div>
+    }
+}

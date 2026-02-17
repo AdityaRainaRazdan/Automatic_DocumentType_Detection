@@ -1,0 +1,119 @@
+##################################################
+# .NET / ASP.NET MVC
+##################################################
+
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.vs/
+.vs/
+
+# Visual Studio
+.vscode/
+*.csproj.user
+*.dbmdl
+*.jfm
+*.cache
+*.pdb
+
+##################################################
+# ASP.NET Build & Publish
+##################################################
+
+publish/
+wwwroot/lib/
+wwwroot/dist/
+wwwroot/node_modules/
+
+##################################################
+# Logs
+##################################################
+
+logs/
+*.log
+
+##################################################
+# Python / FastAPI
+##################################################
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+
+# Python packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+##################################################
+# ML / AI / Model Files (Large Files)
+##################################################
+
+*.pkl
+*.joblib
+*.h5
+*.model
+saved_models/
+models/
+
+##################################################
+# OCR / Upload Files (Temporary)
+##################################################
+
+uploads/
+temp/
+tmp/
+*.pdf
+*.png
+*.jpg
+*.jpeg
+
+##################################################
+# Environment Variables (Secrets)
+##################################################
+
+.env
+.env.*
+appsettings.Development.json
+
+##################################################
+# OS Files
+##################################################
+
+.DS_Store
+Thumbs.db
+
+##################################################
+# Node (if you later add frontend tools)
+##################################################
+
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+##################################################
+# Test Results
+##################################################
+
+TestResults/
+*.trx
+
+##################################################
+# Coverage
+##################################################
+
+coverage/
+*.coverage
+*.coveragexml
